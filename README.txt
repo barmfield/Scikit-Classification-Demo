@@ -1,7 +1,9 @@
 This program will train 3 classifiers: a decision tree, support vector
 machine, and and multi-layer perceptron network to make predictions about the
-gender of an individual. malefemale.py is intended to be run from the command
-line. 
+gender of an individual. Please note this is an overly simplistic model for
+educational purposes, and is not intended to be representative of humans in
+general. Training data was inspired by body statistics from the CDC (link
+below).
 
 Features (X): height, weight, shoe size
 
@@ -12,7 +14,6 @@ Label (Y): female, male
 The decision tree model is the only one that selects correctly from user input
 data. One major issue may be the limited number of examples. More exploration
 is required to better understand the three models. 
-
 
 
 
